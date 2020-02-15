@@ -27,12 +27,10 @@ characters = text.get_characters('n', 'T')
 
 # Get digits
 digits = text.get_digits()
-
 # >> ['6', '1', '2', '1', '2', '3']
 
 #Find any sequence that matches the following: start dequence, amount of characters in between, end sequence
 sequence = text.find_between('q', 5, 'br')
-
 # >> ['quick br', 'quack br']
 
 entire_text = text.find_between(text.text[0], len(text.text) - 2, text.text[-1])
