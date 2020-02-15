@@ -29,7 +29,7 @@ characters = text.get_characters('n', 'T')
 digits = text.get_digits()
 # >> ['6', '1', '2', '1', '2', '3']
 
-#Find any sequence that matches the following: start dequence, amount of characters in between, end sequence
+#Find any sequence that matches the following pattern: start dequence, amount of characters in between, end sequence (In regex: [h...o] >> ['hello'])
 sequence = text.find_between('q', 5, 'br')
 # >> ['quick br', 'quack br']
 
