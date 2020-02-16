@@ -1,10 +1,10 @@
-# pyre
-PyRe is a python implementation of regex. Its main aim is to be easy to use and readable. (This is only a hobby project and is a work in progress)
+# explicit_re
+explicit_re is a python implementation of regex. Its main aim is to be easy to use and readable. (This is only a hobby project and is a work in progress)
 
 # Examples:
 
 ```python
-from pyre import Text
+from explicit_re import Text
 
 text = Text('The 6 quick brown foxes jump over 12 lazy dogs 123 times! The ducks quack braveley as the hunter takes his aim.')
 
