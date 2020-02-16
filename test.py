@@ -1,4 +1,4 @@
-from pyre import Text
+from explicit_re import Text
 
 text = Text('The 6 quick brown foxes jump over 12 lazy dogs 123 times! The ducks quack braveley as the hunter takes his aim.')
 
